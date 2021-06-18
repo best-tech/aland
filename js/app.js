@@ -224,12 +224,12 @@ window.TP_FORM_SETTINGS[set_handle] = {
 //     });
 // <!-- add places widget end 6-->
 
-<!-- set links address -->
-    docReady(function() {
-        var logo1 = document.getElementById('logo-top');
-        var logo2 = document.getElementById('logo-bottom');
-        var href = "http://www.aviasales.ru/?marker=" + marker+'._landings';
-        logo1.setAttribute('href', href);
-        logo2.setAttribute('href', href);
-    });
-<!-- set links address -->
+// <!-- set links address -->
+//     docReady(function() {
+//         var logo1 = document.getElementById('logo-top');
+//         var logo2 = document.getElementById('logo-bottom');
+//         var href = "http://www.aviasales.ru/?marker=" + marker+'._landings';
+//         logo1.setAttribute('href', href);
+//         logo2.setAttribute('href', href);
+//     });
+// <!-- set links address -->
