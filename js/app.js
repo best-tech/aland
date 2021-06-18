@@ -156,7 +156,7 @@ window.TP_FORM_SETTINGS[set_handle] = {
         var script = document.createElement('script');
         script.setAttribute('charset', 'utf-8');
         script.setAttribute('async', 'true');
-        script.setAttribute('src', '//www.travelpayouts.com/calendar_widget/iframe.js?marker=' + marker +'._landings&origin=HKT&destination=BKK&currency=rub&width=800&searchUrl=hydra.aviasales.ru&one_way=false&only_direct=false&locale=ru&period=year&range=7%2C14');
+        script.setAttribute('src', '//www.travelpayouts.com/calendar_widget/iframe.js?marker=' + marker +'&campaign_id=100&searchUrl=www.aviasales.ru%2Fsearch&locale=ru&powered_by=false&one_way=true&only_direct=false&period=year&range=1%2C30&primary=%230C73FE&color_background=%23FFFFFF&achieve=%2345AD35&dark=%23000000&light=%23fffff&origin=MOW&destination=AER');
         document.getElementById('calendar__form').appendChild(script);
     });
 
@@ -167,62 +167,62 @@ window.TP_FORM_SETTINGS[set_handle] = {
         var script = document.createElement('script');
         script.setAttribute('charset', 'utf-8');
         script.setAttribute('async', 'true');
-        script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=usd&destination=AER&destination_name=%D0%90%D0%B4%D0%BB%D0%B5%D1%80');
+        script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'&campaign_id=100&target_host=www.aviasales.ru%2Fsearch&locale=ru&limit=6&powered_by=false&destination=AER');
         document.getElementById('popular__list__item-1').appendChild(script);
     });
 
 <!-- add places widget end 1-->
 
-<!-- add places widget 2 -->
-    docReady(function() {
-        var script = document.createElement('script');
-        script.setAttribute('charset', 'utf-8');
-        script.setAttribute('async', 'true');
-        script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=MRV&destination_name=%D0%9C%D0%B8%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%92%D0%BE%D0%B4%D1%8B');
-        document.getElementById('popular__list__item-2').appendChild(script);
-    });
-<!-- add places widget end 2-->
+// <!-- add places widget 2 -->
+//     docReady(function() {
+//         var script = document.createElement('script');
+//         script.setAttribute('charset', 'utf-8');
+//         script.setAttribute('async', 'true');
+//         script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=MRV&destination_name=%D0%9C%D0%B8%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%92%D0%BE%D0%B4%D1%8B');
+//         document.getElementById('popular__list__item-2').appendChild(script);
+//     });
+// <!-- add places widget end 2-->
 
 
-<!-- add places widget 3 -->
-    docReady(function() {
-        var script = document.createElement('script');
-        script.setAttribute('charset', 'utf-8');
-        script.setAttribute('async', 'true');
-        script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=TLV&destination_name=%D0%A2%D0%B5%D0%BB%D1%8C-%D0%90%D0%B2%D0%B8%D0%B2');
-        document.getElementById('popular__list__item-3').appendChild(script);
-    });
-<!-- add places widget end 3-->
+// <!-- add places widget 3 -->
+//     docReady(function() {
+//         var script = document.createElement('script');
+//         script.setAttribute('charset', 'utf-8');
+//         script.setAttribute('async', 'true');
+//         script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=TLV&destination_name=%D0%A2%D0%B5%D0%BB%D1%8C-%D0%90%D0%B2%D0%B8%D0%B2');
+//         document.getElementById('popular__list__item-3').appendChild(script);
+//     });
+// <!-- add places widget end 3-->
 
-<!-- add places widget 4 -->
-    docReady(function() {
-        var script = document.createElement('script');
-        script.setAttribute('charset', 'utf-8');
-        script.setAttribute('async', 'true');
-        script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=SIP&destination_name=%D0%A1%D0%B8%D0%BC%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C');
-        document.getElementById('popular__list__item-4').appendChild(script);
-    });
-<!-- add places widget end 4-->
+// <!-- add places widget 4 -->
+//     docReady(function() {
+//         var script = document.createElement('script');
+//         script.setAttribute('charset', 'utf-8');
+//         script.setAttribute('async', 'true');
+//         script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=SIP&destination_name=%D0%A1%D0%B8%D0%BC%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C');
+//         document.getElementById('popular__list__item-4').appendChild(script);
+//     });
+// <!-- add places widget end 4-->
 
-<!-- add places widget 5 -->
-    docReady(function() {
-        var script = document.createElement('script');
-        script.setAttribute('charset', 'utf-8');
-        script.setAttribute('async', 'true');
-        script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=KGD&destination_name=%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4');
-        document.getElementById('popular__list__item-5').appendChild(script);
-    });
-<!-- add places widget end 5-->
+// <!-- add places widget 5 -->
+//     docReady(function() {
+//         var script = document.createElement('script');
+//         script.setAttribute('charset', 'utf-8');
+//         script.setAttribute('async', 'true');
+//         script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=KGD&destination_name=%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4');
+//         document.getElementById('popular__list__item-5').appendChild(script);
+//     });
+// <!-- add places widget end 5-->
 
-<!-- add places widget 6 -->
-    docReady(function() {
-        var script = document.createElement('script');
-        script.setAttribute('charset', 'utf-8');
-        script.setAttribute('async', 'true');
-        script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=PRG&destination_name=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0');
-        document.getElementById('popular__list__item-6').appendChild(script);
-    });
-<!-- add places widget end 6-->
+// <!-- add places widget 6 -->
+//     docReady(function() {
+//         var script = document.createElement('script');
+//         script.setAttribute('charset', 'utf-8');
+//         script.setAttribute('async', 'true');
+//         script.setAttribute('src', '//www.travelpayouts.com/weedle/widget.js?width=400px&marker=' + marker +'._landings&host=hydra.aviasales.ru&locale=ru&currency=rub&destination=PRG&destination_name=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0');
+//         document.getElementById('popular__list__item-6').appendChild(script);
+//     });
+// <!-- add places widget end 6-->
 
 <!-- set links address -->
     docReady(function() {
